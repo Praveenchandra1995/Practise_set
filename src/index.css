@@ -1,13 +1,216 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.title {
+  width: 74px;
+  height: 34px;
+  margin: 25px 25px;
+  left: 198px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 32.13px;
+  font-size: 28px;
+  color: #0b0b23;
+  margin-left: 50px;
+}
+.nav-elements {
+  display: flex;
+  justify-content: space-between;
+  top: 74px;
+  left: 1118px;
+  width: 282px;
+  height: 18px;
+  margin: 20px 20px;
+  font-family: Montserrat;
+  font-family: 500;
+  font-size: 15px;
+  line-height: 18.29 px;
+  text-align: right;
+  color: #000000;
+  text-align: center;
+  margin-right: 70px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  text-align: center;
+}
+.rectangle {
+  background-color: #090b1d;
+  width: 100%vw;
+  height: 500px;
+}
+.title-1 {
+  font-family: "Montserrat";
+  width: 235px;
+  height: 24px;
+  font-size: 20px;
+  line-height: 24.38px;
+  top: 786px;
+  left: 299px;
+  color: #ffffff;
+  margin: 15px 15px;
+}
+.icon-1 {
+  width: 18px;
+  height: 18px;
+  color: #ffffff;
+  margin: 15px 15px;
+}
+.body-title {
+  width: 100%vw;
+  height: 70px;
+  top: 763px;
+  left: 250px;
+  border-radius: 5px;
+  background-color: #11b98f;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 15px;
+}
+.title-2 {
+  width: 139px;
+  height: 22px;
+  top: 886px;
+  left: 324px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  color: #2e3a5e;
+  margin-left: 32px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.images {
+  width: 298px;
+  height: 223.5px;
+  border-radius: 19px;
+}
+.product-title {
+  width: 152px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #2e3a5e;
+  text-align: start;
+}
+
+.product-description {
+  width: 246px;
+  height: 135px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8392a6;
+  text-align: start;
+}
+.product-inner {
+  width: 300px;
+  height: 475px;
+  border: 1px solid #ddf6f0;
+  margin: 10px;
+  background-color: #ffffff;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #eaf0f6;
+}
+.Kitchen-inner {
+  width: 300px;
+  height: 475px;
+  border: 1px solid #ddf6f0;
+  margin: 10px;
+  background-color: #ffffff;
+}
+.key-title {
+  width: 246px;
+  height: 28px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2e3a5e;
+  margin-left: 20px;
+}
+.btn1 {
+  width: 170px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #ffffffb2;
+  border: 1px solid #12aa84;
+  color: #11b98f;
+}
+.key-title {
+  width: 246px;
+  height: 28px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #2e3a5e;
+}
+.btn1:hover {
+  background-color: #12aa84;
+  color: #ffffff;
+}
+.btn-inner1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 45px;
+  margin-top: 40px;
+}
+h3 {
+  width: 152px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.btn-inner2 {
+  display: flex;
+  flex-direction: row;
+  margin: 22px 22px;
+  gap: 23px;
+  margin-bottom: 60px;
+  margin-left: 45px;
+}
+.key-title2 {
+  width: 281px;
+  height: 28px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2e3a5e;
+}
+.key-inner {
+  width: 100%vw;
+  height: 361px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #eaf0f6;
+  margin-top: -15px;
+}
+.body {
+  margin: 25px;
+  margin-bottom: 100px;
 }
